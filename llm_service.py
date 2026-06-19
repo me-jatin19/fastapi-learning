@@ -4,10 +4,11 @@ llm = ChatOllama(
     model="qwen3:4b"
 )
 
-def ask_llm(context, question):
+def ask_llm(history, context, question):
 
     prompt = f"""
-You are a helpful assistant.
+Conversation History:
+{history}
 
 Context:
 {context}
@@ -15,7 +16,7 @@ Context:
 Question:
 {question}
 
-Answer using only the context provided.
+Answer using the conversation history and context.
 """
 
     response = llm.invoke(prompt)
