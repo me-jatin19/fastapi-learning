@@ -1,0 +1,17 @@
+FastAPI is a Python framework for building APIs.
+
+SQLite is a lightweight database.
+
+RAG stands for Retrieval Augmented Generation.
+
+LangChain is a framework used for building LLM applications.
+ 
+Ollama allows running large language models locally.
+
+FastAPI is generally vey usefull in al models
+
+FastAPI is a Python framework for building APIs.
+
+FastAPI was created by Sebastián Ramírez.
+
+FastAPI is commonly used for AI and LLM applications.
